@@ -12,7 +12,7 @@
 # 그리고 세 변수를 각각 print()로 출력하세요.
 
 # TODO: 여기에 작성
-my_name = Jiwon Min
+my_name = "Jiwon Min"
 my_age = 21
 my_height = 168.5
 print(my_name)
@@ -29,7 +29,7 @@ print(my_height)
 # TODO: 여기에 작성
 year = (input("태어난 연도: "))
 year = int(year)
-print("당신의 나이는 ", 2026 - year + 1, "세 입니다.")
+print("당신의 나이는 ", 2026 - year, "세 입니다.")
 
 
 # ---------------------------------------------------
@@ -51,7 +51,6 @@ else:
   sub = num2 - num1
   div = num2 / num1
 mul = num1 * num2
-div = int(div)
 print(add, sub, div, mul)
 
 # ---------------------------------------------------
@@ -72,8 +71,8 @@ introduce("Eileen", 20)
 # (마지막 "123"은 숫자처럼 보이지만 따옴표가 있으니 문자열입니다 - 실제로 그런지 확인해보세요)
 
 # TODO: 여기에 작성
-type(10)
-type(3.14)
-type("hello")
-type(True)
-type("123")
+print(type(10))
+print(type(3.14))
+print(type("hello"))
+print(type(True))
+print(type("123"))
