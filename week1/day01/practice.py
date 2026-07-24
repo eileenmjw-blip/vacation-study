@@ -12,9 +12,9 @@
 # 그리고 세 변수를 각각 print()로 출력하세요.
 
 # TODO: 여기에 작성
-my_name: Jiwon Min
-my_age: 21
-my_height: 168.5
+my_name = Jiwon Min
+my_age = 21
+my_height = 168.5
 print(my_name)
 print(my_age)
 print(my_height)
