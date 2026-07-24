@@ -27,8 +27,8 @@ print(my_height)
 # 예시 실행 결과: "당신의 나이는 26세입니다." (2000년생인 경우)
 
 # TODO: 여기에 작성
-year(input("태어난 연도: "))
-int(year)
+year = (input("태어난 연도: "))
+year = int(year)
 print("당신의 나이는 ", 2026 - year + 1, "세 입니다.")
 
 
@@ -39,10 +39,10 @@ print("당신의 나이는 ", 2026 - year + 1, "세 입니다.")
 # 힌트: 나눗셈 결과는 float(실수)로 나옵니다.
 
 # TODO: 여기에 작성
-num1(input("첫번째 숫자를 입력해주세요: "))
-num2(input("두번째 숫자를 입력해주세요: "))
-int(num1)
-int(num2)
+num1 = (input("첫번째 숫자를 입력해주세요: "))
+num2 = (input("두번째 숫자를 입력해주세요: "))
+num1 = int(num1)
+num2 = int(num2)
 add = num1 + num2
 if num1>num2:
   sub = num1 - num2
@@ -51,17 +51,14 @@ else:
   sub = num2 - num1
   div = num2 / num1
 mul = num1 * num2
-int(div)
+div = int(div)
 print(add, sub, div, mul)
 
 # ---------------------------------------------------
 # 문제 4. 에러 찾기 연습
 # 아래 코드에는 문법 오류가 있습니다. 주석을 풀고 실행해서
 # 어떤 에러 메시지가 나오는지 확인한 뒤, 코드를 고쳐서 정상 실행되게 만드세요.
-#
-def introduce(name, age)
-    print(name + "은(는) " + str(age) + "살입니다")
-introduce("Eileen", 20)
+
 
 # TODO: 위 코드를 고쳐서 여기에 다시 작성 (정상 작동해야 함)
 def introduce(name, age):
