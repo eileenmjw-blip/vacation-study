@@ -9,6 +9,7 @@
 
 # TODO: 여기에 작성
 num =  input("숫자를 입력해주세요: ")
+num = int(num)
 if num % 2 == 0:
   print("짝수")
 else:
@@ -22,7 +23,17 @@ else:
 # 힌트: if / elif / else 를 사용하세요. input()은 int()로 변환 필요.
 
 # TODO: 여기에 작성
-
+score = input("점수를 입력해주세요: ")
+score = int (score)
+if score >=90:
+  print("A")
+elif 90 >= score >=80:
+  print("B")
+elif 80 >= score >= 70:
+  print("C")
+else:
+  print("F")
+  
 
 # ---------------------------------------------------
 # 문제 3. 로그인 확인
@@ -50,6 +61,8 @@ else:
 # TODO: 여기에 작성
 age = input("나이를 입력해주세요: ")
 height = input("키를 입력해주세요(cm): ")
+age = int(age)
+height = int(height)
 if age >= 12 and height >= 140:
   print("탑승 가능")
 else:
